@@ -1,8 +1,8 @@
-import React from "react";
-import * as S from "./StyleHeader"
+import React from "react"
 import Cn from "./ImagensHeader/cn.png"
 import Jogos from "./ImagensHeader/jogo.png"
 import Programacao from "./ImagensHeader/programação.png"
+import * as S from "./StyleHeader.jsx"
 
 
 function Header() {
@@ -20,9 +20,11 @@ function Header() {
                     <img src={Programacao} alt="" />
                     <h2>PROGRAMAÇÃO</h2>
                 </S.Div>
-            </S.Section>
-        </S.HeaderStyle>
 
+            </S.Section>
+
+        </S.HeaderStyle>
     )
 }
+
 export default Header
