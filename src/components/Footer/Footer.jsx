@@ -19,9 +19,10 @@ function Footer() {
                     <li>Personagens</li>
                 </S.Ul>
 
-
+                <S.Div>
                 <img src={Git} alt="" />
                 <img src={Linkedin} alt="" />
+                </S.Div>
 
             </S.PrimeiraSection>
 
